@@ -1,0 +1,4 @@
+pyodbc==4.0.30
+retry==0.9.2
+j2cli[yaml]==0.3.10
+wheel==0.36.2

@@ -1,0 +1,17 @@
+[BASIC]
+
+max-args = 7
+docstring-min-length=10
+
+# C0330: black autoformats
+# C0103: we want DentoloRequest to follow this naming in Azure
+# R0801: duplicate-code
+# W0511: ToDo
+# W0707: raise-missing-from
+# E1136: unsubscriptable-object disable
+disable=C0103, C0330, R0801, W0511, W0603, W0707, E1136, E0401, C0413
+
+good-names=i, j, k, x
+
+[FORMAT]
+max-line-length=120
